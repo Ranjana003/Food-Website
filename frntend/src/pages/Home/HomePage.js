@@ -131,7 +131,7 @@ export default function HomePage() {
 
               </div>
 
-              <div className={classes.main_slide4}>
+              {/*<div className={classes.main_slide4}>
                   <div className={classes.chef_feed}>
                       <h2>Customer <span style={{ color: "red" }}>Feedback</span></h2>
                       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
@@ -174,10 +174,10 @@ export default function HomePage() {
                           <input type="email" placeholder="Exapmle.com" />
                       </div>
                       <button className={classes.yellow_btn}> Subscribe</button>
-                  </div>
+                  </div> 
 
 
-              </div>
+              </div> */}
               </div>
 </div>
     </>
