@@ -24,15 +24,15 @@ export default function Header() {
               </Link>
               <nav>
                   <ul>
-                      <Link to="/Menu">
+                      {/* <Link to="/Menu">
+                          <li>Menu</li>
+                      </Link> */}
+                      <Link to="/Order">
                           <li>Menu</li>
                       </Link>
-                      <Link to="/Order">
-                          <li>Order</li>
-                      </Link>
-                      <Link to="/Dinning">
+                      {/* <Link to="/Dinning">
                           <li>Dinning</li>
-                      </Link>
+                      </Link> */}
                       <Link to="/About">
                           <li>About</li>
                       </Link>
