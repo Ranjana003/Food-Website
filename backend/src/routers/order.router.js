@@ -65,6 +65,9 @@ router.put('/pay', handler(async (req, res) => {
     // Invalid signature
     res.status(BAD_REQUEST).send('Invalid signature');
   }
+
+ 
+
 }));
 
 router.get(
