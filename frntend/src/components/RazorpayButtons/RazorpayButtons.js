@@ -7,6 +7,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { loadRazorpayScript } from '../../utils/loadRazorpayScript';
 
+
 export default function RazorpayButtons({ order }) {
   const { clearCart } = useCart();
   const navigate = useNavigate();
@@ -99,6 +100,6 @@ export default function RazorpayButtons({ order }) {
   };
 
   return (
-    <button onClick={handlePayment}>Pay with Razorpay</button>
+    <button onClick={handlePayment} style={{ height: '3rem', width: '10rem' ,backgroundColor:'red',borderRadius:"9px",fontSize:"1rem",color:'white'}}>Pay with Razorpay</button>
   );
 }
