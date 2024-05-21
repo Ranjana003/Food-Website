@@ -18,6 +18,7 @@ import FoodsAdminPage from './pages/FoodsAdmin/FoodsAdminPage';
 import FoodEditPage from './pages/FoodEdit/FoodEditPage';
 import UsersPage from './pages/UsersPage/UsersPage';
 import UserEditPage from './pages/UserEdit/UserEditPage';
+import About from './pages/About/About';
 
 
 
@@ -39,6 +40,7 @@ export default function AppRoutes() {
         }
       />
       <Route path="/" element={<HomePage />} />
+      <Route path="/About" element={<About /> } />
       <Route path="/login" element={<LoginPage />} />
       <Route path="/register" element={<RegisterPage />} /> 
       <Route

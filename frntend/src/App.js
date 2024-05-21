@@ -4,6 +4,7 @@ import Loading from './components/Loading/Loading';
 import { useLoading } from './hooks/useLoading';
 import { setLoadingInterceptor } from './interceptors/loadingInterceptor';
 import { useEffect } from 'react';
+import Footer from './components/Footer/Footer';
 
 function App(){
 
@@ -17,6 +18,7 @@ function App(){
   <Loading />
   <Header />
   <AppRoutes />
+  
   </>
 }
 

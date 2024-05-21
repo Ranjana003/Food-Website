@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Price from '../Price/Price';
-import StarRating from '../StarRating/StarRating';
+import Button from '../../components/SeeMoreButton/Button';
 // import classes from './thumbnails.module.css';
 import './thumbnails.css';
 export default function Thumbnails({ foods }) {
@@ -21,7 +20,8 @@ export default function Thumbnails({ foods }) {
             <div className='content'>
               <div className='name'>
                 <h2>{food.name}</h2>
-                <h4>price={food.price}</h4>
+                <h4>{food.price}/-</h4>
+                <Button text="See More" />
               
               
               </div>

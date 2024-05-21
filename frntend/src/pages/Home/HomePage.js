@@ -1,5 +1,7 @@
 
+import Footer from '../../components/Footer/Footer';
 import classes from './homePage.module.css';
+
 
 export default function HomePage() {
   return (
@@ -11,34 +13,8 @@ export default function HomePage() {
                       <img src="foods/FFpT.png" alt="" />
                   </div>
               </div>
-              <div className={classes.fooditems}>
-                  <div className={classes.item}>
-                      <div>
-                          <img src="foods/MainCourse.png" alt="food item" />
-                      </div>
-                      <h3>Main Course</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                      <button className={classes.white_btn}>See Menu</button>
-                  </div>
-                  <div className={classes.item}>
-                      <div>
-                          <img src="foods/Snacks.png" alt="food item" />
-                      </div>
-                      <h3>Snacks</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                      <button className={classes.yellow_btn}>See Menu</button>
-                  </div>
-                  <div className={classes.item}>
-                      <div>
-                          <img src="foods/Desserts.png" alt="food item" />
-                      </div>
-                      <h3>Desserts</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                      <button className={classes.white_btn}>See Menu</button>
-                  </div>
-              </div>
-
-              <div className={classes.main_slide2}>
+             
+             {/* <div className={classes.main_slide2}>
                   <div className={classes.foodimg}>
                       <img src="foods/Plate1.png" alt="food item" />
                   </div>
@@ -77,8 +53,12 @@ export default function HomePage() {
                       </div>
                   </div>
               </div>
+              /*}
 
-              <div className={classes.main_slide3}>
+             
+                
+              
+             {/* <div className={classes.main_slide3}>
                   <div className={classes.fav_head}>
                       <h3>Our Popular Food Items</h3>
                       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
@@ -130,6 +110,7 @@ export default function HomePage() {
 
 
               </div>
+  */}
 
               {/*<div className={classes.main_slide4}>
                   <div className={classes.chef_feed}>
@@ -178,9 +159,40 @@ export default function HomePage() {
 
 
               </div> */}
+              <Footer />
               </div>
+             
 </div>
     </>
 
   );
 }
+
+/*
+<div className={classes.fooditems}>
+<div className={classes.item}>
+  <div>
+        <img src="foods/MainCourse.png" alt="food item" />
+    </div>
+    <h3>Main Course</h3>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+    <button className={classes.white_btn}>See Menu</button>
+</div>
+<div className={classes.item}>
+    <div>
+        <img src="foods/Snacks.png" alt="food item" />
+    </div>
+    <h3>Snacks</h3>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+    <button className={classes.yellow_btn}>See Menu</button>
+</div>
+<div className={classes.item}>
+    <div>
+        <img src="foods/Desserts.png" alt="food item" />
+    </div>
+    <h3>Desserts</h3>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+    <button className={classes.white_btn}>See Menu</button>
+</div>
+</div>
+*/

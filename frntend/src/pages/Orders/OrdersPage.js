@@ -81,7 +81,7 @@ export default function OrdersPage() {
             </div>
             <div className={classes.items}>
               {order.items.map(item => (
-                <Link key={item.food} to={`/food/${item.food}`}>
+                <Link key={item.food} to={`/foods/${item.food}`}>
                   <img src={item.imageUrl} alt={item.name} />
                 </Link>
               ))}

@@ -3,6 +3,7 @@ header {
     padding: 0 7vw;
     border-bottom: 1px solid #FFCC53;
     box-shadow: 0 2px 20px rgb(255, 219, 88);
+    height:5rem;
   }
   
   .header a {
@@ -29,19 +30,23 @@ header {
   
   .logo img {
     font-weight: bold;
-    padding: 1rem;
-    width: 150px;
+    /* padding: 1rem; */
+    width: 5.5rem;
+    height: 5.5rem;
+    ;
   }
   
   .header ul {
     display: flex;
     list-style-type: none;
     margin: 0;
+    
   }
   
   .header ul a {
     padding: 1rem;
     display: inline-block;
+    
   }
   
   .menu_container {

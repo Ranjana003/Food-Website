@@ -20,13 +20,13 @@ export default function Header() {
      <header className={classes.header}>
           <div className={classes.container}>
               <Link to="/" className={classes.logo}>
-                  <img src="foods/logo2.png" alt="" />
+                  <img src="foods/Feast.png" alt="" />
               </Link>
               <nav>
                   <ul>
-                      {/* <Link to="/Menu">
-                          <li>Menu</li>
-                      </Link> */}
+                       <Link to="/">
+                          <li>Home</li>
+                      </Link> 
                       <Link to="/Order">
                           <li>Menu</li>
                       </Link>

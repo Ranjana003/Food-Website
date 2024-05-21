@@ -42,7 +42,7 @@ export default function HomePage() {
   }, [searchTerm, tag]);
 
   return (
-  <div style={{ backgroundColor: '#283035', minHeight: '100vh' }}>
+  <div style={{ backgroundImage: 'linear-gradient(to right, #434343 10%, black 100%)', minHeight: '100vh' }}>
     <Search />
     <Tags tags={tags} />
     {foods.length === 0 && <NotFound linkText="Reset Search" />}
