@@ -1,13 +1,14 @@
 header {
     background:#FFDE59;
-    padding: 0 7vw;
+    padding: 0 5vw;
     border-bottom: 1px solid #FFCC53;
-    box-shadow: 0 2px 20px rgb(255, 219, 88);
+    box-shadow: 0 0px 20px rgb(255, 219, 88);
     height:5rem;
   }
   
   .header a {
-    color: #af1313;
+    color: black;
+    font-size:large;
   }
   
   .header a:hover {
@@ -31,8 +32,8 @@ header {
   .logo img {
     font-weight: bold;
     /* padding: 1rem; */
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 4.25rem;  /* Reduce the width */
+    height: 4.25rem; /* Reduce the height */
     ;
   }
   
@@ -51,6 +52,7 @@ header {
   
   .menu_container {
     position: relative;
+    color:black;
   }
   
   .menu {

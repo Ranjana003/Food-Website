@@ -20,7 +20,7 @@ export default function Header() {
      <header className={classes.header}>
           <div className={classes.container}>
               <Link to="/" className={classes.logo}>
-                  <img src="foods/Feast.png" alt="" />
+                  <img src="foods/Feast5.png" alt="" />
               </Link>
               <nav>
                   <ul>
@@ -51,12 +51,16 @@ export default function Header() {
                               </div>
                           </li>
                       ) : (
-                          <Link to="/login">Login</Link>
+                          <Link to="/login"><li>
+                          <i className="fa-solid fa-user" id="userlap" ></i>
+                      </li></Link>
                       )}
 
                       <li>
                           <Link to="/cart">
-                              Cart
+                          <li>
+                          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                       </li>
                               {cart.totalCount > 0 && <span className={classes.cart_count}>{cart.totalCount}</span>}
                           </Link>
                       </li>
