@@ -1,0 +1,90 @@
+.main_page {
+  width: 100%;
+  background-image: linear-gradient(to right, #434343 10%, black 100%);
+  display: flex;
+  justify-content: center;
+}
+
+.food_card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: 1rem;
+  width: 90%;
+  margin: 2rem;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20rem;
+  height: 19rem;
+  background-color: #FAD961;
+  background-image: linear-gradient(180deg, #FAD961 0%, #fb9257 100%);
+  border-radius: 1.5rem;
+  transition: 0.5s;
+}
+
+.card:hover {
+  height: 23rem;
+  cursor: pointer;
+}
+
+.food_img {
+  position: absolute;
+  top: 1.2rem;
+  left:1.5rem;
+  width: 17rem;
+  height: 14rem;
+  background: #333;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.card:hover .food_img {
+  top: -6rem;
+  scale: 0.75;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+}
+
+.food_img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  top: 15.5rem;
+  left:1rem;
+  width: 100%;
+  height: 2rem;
+  padding: 0 30px;
+  text-align: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.card:hover .content {
+  top: 8rem;
+  height: 15rem;
+}
+
+.content h2 {
+  margin-top: 0.2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+}
+
+.content h4 {
+  margin-top: 0.2rem;
+  color: black;
+}

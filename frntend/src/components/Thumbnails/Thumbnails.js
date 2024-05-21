@@ -2,50 +2,82 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Price from '../Price/Price';
 import StarRating from '../StarRating/StarRating';
-import classes from './thumbnails.module.css';
+// import classes from './thumbnails.module.css';
+import './thumbnails.css';
 export default function Thumbnails({ foods }) {
   return (
-  
-    <ul className={classes.list}>
+    <div className='main_page'>
+    
+    <div className='food_card'>
       {foods.map(food => (
-        <li key={food.id}>
+        <div key={food.id} className='card'>
           <Link to={`/food/${food.id}`}>
-            <img
-              className={classes.image}
+            <div className='food_img'>
+              <img
               src={`${food.imageUrl}`}
-              alt={food.name}
-            />
+              alt={food.name} />
+              </div>
 
-            <div className={classes.content}>
-              <div className={classes.name}>{food.name}</div>
-              <span
-                className={`${classes.favorite} ${
-                  food.favorite ? '' : classes.not
-                }`}
-              >
-                ❤
-              </span>
-              <div className={classes.stars}>
-                <StarRating stars={food.stars} />
-              </div>
-              <div className={classes.product_item_footer}>
-                <div className={classes.origins}>
-                  {food.origins.map(origin => (
-                    <span key={origin}>{origin}</span>
-                  ))}
-                </div>
-                <div className={classes.cook_time}>
-                  <span>🕒</span>
-                  {food.cookTime}
-                </div>
-              </div>
-              <div className={classes.price}>
-                <Price price={food.price} />
+            <div className='content'>
+              <div className='name'>
+                <h2>{food.name}</h2>
+                <h4>price={food.price}</h4>
+              
+              
               </div>
             </div>
           </Link>
-        </li>
+        </div>
       ))}
-    </ul>
-  );
-}
+    </div>
+    </div>
+    
+      );
+    }
+
+
+
+  
+    // <ul className={classes.list}>
+    //   {foods.map(food => (
+    //     <li key={food.id}>
+    //       <Link to={`/food/${food.id}`}>
+    //         <img
+    //           className={classes.image}
+    //           src={`${food.imageUrl}`}
+    //           alt={food.name}
+    //         />
+
+    //         <div className={classes.content}>
+    //           <div className={classes.name}>{food.name}</div>
+    //           <span
+    //             className={`${classes.favorite} ${
+    //               food.favorite ? '' : classes.not
+    //             }`}
+    //           >
+    //             ❤
+    //           </span>
+    //           <div className={classes.stars}>
+    //             <StarRating stars={food.stars} />
+    //           </div>
+    //           <div className={classes.product_item_footer}>
+    //             <div className={classes.origins}>
+    //               {food.origins.map(origin => (
+    //                 <span key={origin}>{origin}</span>
+    //               ))}
+    //             </div>
+    //             <div className={classes.cook_time}>
+    //               <span>🕒</span>
+    //               {food.cookTime}
+    //             </div>
+    //           </div>
+    //           <div className={classes.price}>
+    //             <Price price={food.price} />
+    //           </div>
+    //         </div>
+    //       </Link>
+    //     </li>
+    //   ))}
+    // </ul>
+//   );
+// }
