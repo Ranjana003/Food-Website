@@ -44,6 +44,10 @@ const Footer = () => {
         </Link>
               </li>
             </ul>
+            <div className="details">
+                <h1>Email: feastfinder@gmail.com</h1>
+                <h1>Customer Care: 9872634510</h1>
+            </div>
           </div>
           <div className="footer-social">
             <h3>

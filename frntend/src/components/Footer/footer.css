@@ -1,5 +1,5 @@
 footer {
-    height: 14rem;
+    height: 12rem;
     background-color: #FFDE59;
 }
 
@@ -16,26 +16,17 @@ footer {
 
 .footer-about img {
 
-    width: 15rem;
-    height:15rem;
+    width: 12rem;
+    height:12rem;
     margin-left: 6vw;
     margin-top: 0%;
 }
 
-.name {
-
-    margin-left: 6vw;
-    color: black;
-    margin-top: 2vh;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3vw;
-    transition: 0.3s;
-}
 
 
 .pageLink ul {
 
-    margin-top: 8vw;
+    margin-top: 4vw;
     list-style: none;
     text-decoration: none;
 
@@ -46,6 +37,13 @@ footer {
     display: inline;
     margin-left: 3vw;
     font-size: 2.3rem;
+}
+.details{
+    margin-top: 1rem;
+    font-size: 0.6rem;
+    margin-left: 15vw;
+    color: rgb(79, 79, 74);
+  
 }
 
 .pageLink a {

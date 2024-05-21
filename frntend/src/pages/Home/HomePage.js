@@ -9,7 +9,8 @@ export default function HomePage() {
     <><div style={{ backgroundImage: 'linear-gradient(to right, #434343 10%, black 100%)',
                     marginTop:'-1.6rem',
                     paddingTop:'0',
-                    Height: '100vh' }}>
+                     
+                    }}>
           {/* <div className={classes.home}>
               <div className={classes.main_slide}>
                   <div>
