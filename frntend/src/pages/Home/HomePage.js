@@ -40,6 +40,12 @@ export default function HomePage() {
                 
               </section>
 
+              <div className={classes.main_slide}>
+                  <div>
+                      <img src="foods/WCU.png" alt="" />
+                  </div>
+              </div>
+
 
              
              {/* <div className={classes.main_slide2}>

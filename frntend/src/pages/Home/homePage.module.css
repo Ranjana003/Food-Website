@@ -7,10 +7,8 @@
 
 }
 
-.main_slide{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap-reverse;
+.main_slide img{
+    width: 100%;
 }
 
     
