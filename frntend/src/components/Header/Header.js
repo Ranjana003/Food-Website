@@ -27,14 +27,14 @@ export default function Header() {
                        <Link to="/">
                           <li>Home</li>
                       </Link> 
-                      <Link to="/Order">
-                          <li>Menu</li>
+                      <Link to="/About">
+                          <li>About</li>
                       </Link>
                       {/* <Link to="/Dinning">
                           <li>Dinning</li>
                       </Link> */}
-                      <Link to="/About">
-                          <li>About</li>
+                      <Link to="/Order">
+                          <li>Order</li>
                       </Link>
                       </ul>
                       </nav>

@@ -1,7 +1,9 @@
 
 .home{
     background-color:#283035;
-    padding:0 ;
+    height: 100vh;
+    padding-top: 0;
+    
 
 }
 
@@ -17,6 +19,7 @@
 .content-left{
         display: block;
         width: 100%;
+        margin-left: 2rem;
     }
 
 .info{

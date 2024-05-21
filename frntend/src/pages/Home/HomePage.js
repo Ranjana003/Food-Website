@@ -7,8 +7,9 @@ export default function HomePage() {
   return (
     
     <><div style={{ backgroundImage: 'linear-gradient(to right, #434343 10%, black 100%)',
-                    padding: '20px',
-                    minHeight: '100vh' }}>
+                    marginTop:'-1.6rem',
+                    paddingTop:'0',
+                    Height: '100vh' }}>
           {/* <div className={classes.home}>
               <div className={classes.main_slide}>
                   <div>

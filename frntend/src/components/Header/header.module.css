@@ -2,13 +2,13 @@ header {
     background:#FFDE59;
     padding: 0 5vw;
     border-bottom: 1px solid #FFCC53;
-    box-shadow: 0 0px 20px rgb(255, 219, 88);
-    height:5rem;
+    /* box-shadow: 0 0px 20px rgb(255, 219, 88); */
+    height:5.3rem;
   }
   
   .header a {
     color: black;
-    font-size:large;
+    font-size:1.7rem;
   }
   
   .header a:hover {
@@ -30,10 +30,11 @@ header {
   }
   
   .logo img {
-    font-weight: bold;
-    /* padding: 1rem; */
-    width: 4.25rem;  /* Reduce the width */
-    height: 4.25rem; /* Reduce the height */
+    /* font-weight: bold; */
+    padding: 1px;
+    width: 4.9rem;  /* Reduce the width */
+    height:4.9rem; /* Reduce the height */
+    overflow: hidden;
     ;
   }
   

@@ -24,22 +24,22 @@ const Footer = () => {
           <div className="pageLink">
             <ul>
               <li>
-              <Link to="" activeClassName="active">
+              <Link to="/" activeClassName="active">
         Home
       </Link>
               </li>
               <li>
-              <Link to=""  activeClassName="active">
+              <Link to="/About"  activeClassName="active">
           About
         </Link>
               </li>
               <li>
-              <Link to=" "  activeClassName="active">
+              <Link to="/Order"  activeClassName="active">
           Menu
         </Link>
               </li>
               <li>
-              <Link to=" "  activeClassName="active">
+              <Link to=""  activeClassName="active">
           Contact
         </Link>
               </li>
