@@ -7,7 +7,6 @@ import Title from '../../components/Title/Title';
 import Input from '../../components/Input/Input';
 import Button from '../../components/Button/Button';
 import { EMAIL } from '../../constants/patterns';
-
 export default function LoginPage() {
   const {
     handleSubmit,
@@ -24,15 +23,14 @@ export default function LoginPage() {
     if (!user) return;
 
     returnUrl ? navigate(returnUrl) : navigate('/');
-  }, [navigate, returnUrl, user]); 
-  
+  }, [user]);
+
   const submit = async ({ email, password }) => {
     await login(email, password);
   };
 
   return (
     <div className={classes.container}>
-        <span className={classes.close}> &times;</span>
       <div className={classes.details}>
         <Title title="Login" />
         <form onSubmit={handleSubmit(submit)} noValidate>
@@ -56,6 +54,7 @@ export default function LoginPage() {
           />
 
           <Button type="submit" text="Login" />
+
           <div className={classes.register}>
             New user? &nbsp;
             <Link to={`/register${returnUrl ? '?returnUrl=' + returnUrl : ''}`}>

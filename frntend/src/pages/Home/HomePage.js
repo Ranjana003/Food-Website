@@ -1,12 +1,13 @@
 
 import classes from './homePage.module.css';
 import Footer from '../../components/Footer/Footer';
+import {Link} from 'react-router-dom';
 
 
 export default function HomePage() {
   return (
     
-    <><div style={{ backgroundImage: 'linear-gradient(to right, #434343 10%, black 100%)',
+    <><div style={{ backgroundColor:'white',
                     marginTop:'-1.6rem',
                     paddingTop:'0',
                      
@@ -30,7 +31,9 @@ export default function HomePage() {
                         <div>We are always near to you with finger-licking Meal</div>
                     </p>
                     </div>
+                    <Link to="/Order">
                     <button className={classes.button}> Explore Food </button>
+                    </Link>
                 </div>
                 
                 <div className={classes['content-right']}>
